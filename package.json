@@ -1,0 +1,33 @@
+{
+  "name": "call-help-new",
+  "version": "1.1.6",
+  "description": "new callhelp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Galionix/ch2.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate"
+  ],
+  "author": "dimas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Galionix/ch2/issues"
+  },
+  "homepage": "https://github.com/Galionix/ch2#readme",
+  "devDependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.10.5"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.8"
+  }
+}
